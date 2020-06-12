@@ -1,6 +1,7 @@
 {
   "name": "osoriobros",
   "version": "0.1.0",
+  "homepage": "https://cclulu.github.io/osoriobros/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
