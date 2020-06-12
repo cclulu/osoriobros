@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  background: url('./media/images/under-construction-2891888_1920.jpg');
+  min-height: 100%;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .App-logo {

@@ -1,0 +1,30 @@
+.content {
+  background-color: rgba(0,0,0,.3);
+  display: flex;
+}
+
+.titleName {
+  color: black;
+  font-family: 'Trajan', arial, sans-serif;
+  text-shadow: 2px 4px 2px rgba(0,0,0,0.7);
+  transition: 0.3s;
+  margin: 1em 1em 1em 1em;
+}
+.titleName:hover {
+  cursor: pointer;
+  color: black;
+  filter: invert(100%);
+}
+
+.aboutUs{
+  color: black;
+  font-family: 'Sriracha', arial, sans-serif;
+  text-shadow: 2px 4px 2px rgba(0,0,0,0.7);
+  transition: 0.3s;
+  margin: 1em 1em 1em 1em;
+}
+.aboutUs:hover {
+  cursor: pointer;
+  color: black;
+  filter: invert(100%);
+}
