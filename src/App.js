@@ -9,6 +9,11 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
+        <Header/>
+        <Switch>
+          <Route exact path='/' render={(props) => <Home {...props} />}/>
+          <Route exact path='/aboutus' render={(props) => <AboutUs {...props} />}/>
+        </Switch>
       </div>
     )
   }
